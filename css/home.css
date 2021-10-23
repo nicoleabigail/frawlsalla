@@ -1,0 +1,310 @@
+.header
+{
+    background-color: #EDDBD0;
+}
+
+body{
+    margin: 0;
+}
+
+.menu
+{
+    background-color:#384837;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 1%;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ullistmenu
+{
+    list-style: none;
+    display: flex;
+}
+
+.listmenu{
+    
+    position: relative;
+    flex: 1;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.allmenu{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    display: none;
+    z-index: 3;
+}
+
+.allmenu a{
+    text-decoration: none;
+}
+
+.allmenu b{
+    color: white;
+}
+
+.allmenu > li{
+    background-color:  grey;
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.allmenu > li:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.listmenu:hover > .allmenu{
+    display: block;
+}
+
+.logo img
+{
+    width : "90px";
+    height : "90px";
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.Title
+{
+    font-size: 22px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+    padding-left: 17%;
+    padding-right: 17%;
+    /* justify-content: space-evenly; 
+    align-items: center; */
+}
+
+.Title2
+{
+    font-size: 22px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+    padding-left: 1%;
+    /* justify-content: space-evenly; 
+    align-items: center; */
+}
+
+.Topcontent
+{
+    padding-bottom: 5%;
+}
+
+.TitleCenter
+{
+    font-size: 22px;
+    padding-left: 17%;
+    padding-right: 17%;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+    /*text-align: center;*/
+    padding-bottom: 2%;
+}
+
+.TitleClasic
+{
+    font-size: 20.5px;
+    font-family: arial;
+    color: black;
+    padding-left: 12%; 
+    padding-right: 7%;
+    /* align-content: center; */
+}
+
+.capt
+{
+    text-align: left;
+    padding-left: 7.2%;
+    width: 80%;
+}
+
+.content
+{
+    background-color: #c8d5c9;
+}
+
+.image
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1
+{
+    max-width: 100%;
+    height: auto;
+    padding-left: 7%; 
+    display: flex;
+    align-items: center;
+}
+
+/*
+.picone img 
+{
+    width: 20%;
+    padding-left: 7.2%;
+    padding-right: 2%;
+}
+*/
+
+/*
+.picone
+{
+    padding-left: 10%; 
+    display: flex;
+    align-items: center;
+}
+*/
+
+
+.pictwo{
+    padding-left: 10%; 
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+/*
+.picthree{
+    padding-left: 10%; 
+    display: flex;
+    align-items: center;
+}
+*/
+
+.desc
+{
+    display: flex;
+    padding-left: 3%; 
+    padding-right: 22%;
+    flex-direction: column;
+    font-size: 16pt;
+}
+
+.desc2
+{
+    display: flex;
+    padding-left: 3%; 
+    padding-right: 22%;
+    flex-direction: column;
+    font-size: 20.5px;
+    font-family: arial;
+}
+
+/* .desc h2
+{
+} */
+.descTitle
+{
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.text
+{
+    padding-right: 20%;
+}
+
+footer {
+    padding: 4% 12.5% 4% 12.5%;
+    background-color : #384837;
+}
+
+footer {
+    padding: 4% 12.5% 4% 12.5%;
+    background-color: #384837;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+footer h6,
+footer p,
+footer a {
+    color:black;
+    text-align: left;
+}
+
+footer p {
+    font-family: "Helvetica", sans-serif;
+    color: #a1a1a6;
+}
+
+footer h6 {
+    font-size: 20px;
+}
+
+footer p,
+footer a {
+    font-size: 0.875rem;
+}
+
+.footer-top h6 {
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+}
+
+.footer-top>div {
+    display: flex;
+    width: 50%;
+}
+
+.footer-section {
+    width: 100%;
+    padding-bottom: 1.5em;
+}
+
+.footer-section p {
+    padding: 0.15em 0;
+}
+
+.footer-bottom p {
+    font-size: 0.875rem;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    border-top: 1px solid #808080;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}

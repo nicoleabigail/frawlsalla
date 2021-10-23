@@ -1,0 +1,302 @@
+body{
+    background-color: #c8d5c9;
+}
+
+.header
+{
+    background-color: #EDDBD0;
+}
+
+body{
+    margin: 0;
+    background-color: #c8d5c9 ;
+}
+
+.title{
+text-align: center;
+}
+
+.menu
+{
+    background-color:#384837;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 1%;
+}
+
+/* .playNow a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ullistmenu
+{
+    list-style: none;
+    display: flex;
+}
+
+.listmenu{
+    list-style-type: none;
+    position: relative;
+    flex: 1;
+    padding: 0.5em;
+    cursor: pointer;
+    list-style: none;
+}
+
+.listmenu > li > a
+{
+    list-style: none;
+}
+
+.allmenu{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    display: none;
+    z-index: 3;
+}
+
+.allmenu a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.allmenu b{
+    
+    color: white;
+}
+
+.allmenu > li{
+    background-color:  grey;
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.allmenu > li:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+} */
+
+.logo img
+{
+    width : "90px";
+    height : "90px";
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ullistmenu
+{
+    list-style: none;
+    display: flex;
+}
+
+.listmenu{
+    
+    position: relative;
+    flex: 1;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.allmenu{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    display: none;
+    z-index: 3;
+}
+
+.allmenu a{
+    text-decoration: none;
+}
+
+.allmenu b{
+    color: white;
+}
+
+.allmenu > li{
+    background-color:  grey;
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.allmenu > li:hover{
+    background-color: #c8d5c9;
+}
+
+.listmenu:hover > .allmenu{
+    display: block;
+}
+footer {
+    padding: 4% 12.5% 4% 12.5%;
+    background-color : #384837;
+}
+
+footer {
+    padding: 4% 12.5% 4% 12.5%;
+    background-color: #384837;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+footer h6,
+footer p,
+footer a {
+    color:black;
+    text-align: left;
+}
+
+footer p {
+    font-family: "Helvetica", sans-serif;
+    color: #a1a1a6;
+}
+
+footer h6 {
+    font-size: 20px;
+}
+
+footer p,
+footer a {
+    font-size: 0.875rem;
+}
+
+.footer-top h6 {
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+}
+
+.footer-top>div {
+    display: flex;
+    width: 50%;
+}
+
+.footer-section {
+    width: 100%;
+    padding-bottom: 1.5em;
+}
+
+.footer-section p {
+    padding: 0.15em 0;
+}
+
+.footer-bottom p {
+    font-size: 0.875rem;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    border-top: 1px solid #808080;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+* {box-sizing: border-box}
+
+
+/* Add padding to containers */
+.containerform {
+  padding: 16px;
+  background-color: #c8d5c9;
+  width: 100%;
+}
+
+.containerform h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+.containerform p {
+    font-style: italic;
+    color:black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #f1f1f1;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+.signin a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #c8d5c9;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
